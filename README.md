@@ -124,6 +124,8 @@ void setPWM(int value) {
 |---|---|---|
 | ![LED 꺼짐](images/demo-1.jpg) | ![중간 밝기](images/demo-2.jpg) | ![최대 밝기](images/demo-3.jpg) |
 
+https://github.com/user-attachments/assets/bc591d2a-1e54-4a1a-b4c6-ca6c883c3ee6
+
 ---
 
 ## 5. 설명
@@ -139,10 +141,6 @@ ml5.js의 `handPose`는 영상 프레임마다 손 관절 21개(0 손목, 4 엄�
 
 ### 4) 슬라이더 값을 PWM으로
 슬라이더는 0\~100이고 `analogWrite`는 0\~255를 받으므로, `map(sliderValue, 0, 100, 0, 255)`로 바꾼 뒤 반올림해 `PWM:값`으로 보냅니다.
-
-https://github.com/user-attachments/assets/bc591d2a-1e54-4a1a-b4c6-ca6c883c3ee6
-
-
 
 ### 5) 시리얼 통신 규칙 (9600 baud, 한 줄 단위)
 
